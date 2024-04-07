@@ -13,6 +13,10 @@ class MathUtil{
             return false;
         }
 
+        if(num == 2 || num == 3 || num == 5){
+            return true;
+        }
+
         if((num % 2) == 0){
             return false;
         }
