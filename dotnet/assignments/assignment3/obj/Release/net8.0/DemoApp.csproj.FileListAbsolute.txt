@@ -1,0 +1,5 @@
+/home/cdac/juned/dotnet/assignments/assignment3/obj/Release/net8.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/juned/dotnet/assignments/assignment3/obj/Release/net8.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/juned/dotnet/assignments/assignment3/obj/Release/net8.0/DemoApp.AssemblyInfo.cs
+/home/cdac/juned/dotnet/assignments/assignment3/obj/Release/net8.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/juned/dotnet/assignments/assignment3/obj/Release/net8.0/DemoApp.sourcelink.json
