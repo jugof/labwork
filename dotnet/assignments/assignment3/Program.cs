@@ -1,11 +1,33 @@
 using Payroll;
 
 class Program
-{
-    public static void Main(){
-        Loan a = new PersonalLoan(1200, 1);
-        Loan[] arr = new Loan[10];
-        arr[0] = new PersonalLoan(123000, 15);
-        arr[1] = new HomeLoan(230004.69, 12);
+{   
+    public static void Main()
+    {
+        Loan[] L = new Loan[]
+        {
+            new PersonalLoan(400000, 16),
+            new HomeLoan(200000, 9),
+            new PersonalLoan(126900, 10),
+            new HomeLoan(842003, 4),
+            new PersonalLoan(5349055, 5),
+            new HomeLoan(897643, 3)
+        };
+        foreach(var loan in L)
+        {
+            double emi = loan.GetEMI();
+            if(loan is ITaxable tax)
+            {
+                Console.WriteLine($"Calculated EMI for the Personal Loan : {emi:0.00}, and Tax is: {tax.getTax():0.00}");
+            }
+
+            if(loan is Discountable discount)
+            {
+                Console.WriteLine($"Calculated EMI for the Home Loan : {emi:0.00}, and Discount is: {discount.getDiscount():0.00}");
+            }
+
+        }
+
     }
+
 }

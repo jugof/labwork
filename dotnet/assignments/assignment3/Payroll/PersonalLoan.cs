@@ -1,6 +1,6 @@
 namespace Payroll{
 
-    class PersonalLoan : Loan
+    class PersonalLoan : Loan, ITaxable
     {
         double lowerlimit = 100000;
         double higherlimit = 1000000;
@@ -20,7 +20,10 @@ namespace Payroll{
             return rate;
         }
 
-        
+        public double getTax()
+        {
+            return GetEMI() / 0.05;
+        }
     }
 
 }

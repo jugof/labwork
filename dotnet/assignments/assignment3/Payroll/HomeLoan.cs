@@ -1,6 +1,6 @@
 namespace Payroll
 {
-    class HomeLoan : Loan
+    class HomeLoan : Loan, Discountable
     {
       private double limit;
       public HomeLoan(double principle, double period) : base(principle, period) 
@@ -15,6 +15,10 @@ namespace Payroll
           return rate;
       }
       
+      public double getDiscount(){
+        return GetEMI() * 0.10;
+      }
+
     }
 
 }
