@@ -16,7 +16,7 @@ namespace Payroll
       }
       
       public double getDiscount(){
-        return GetEMI() * 0.10;
+        return GetEMI() / 0.05;
       }
 
     }

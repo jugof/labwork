@@ -22,7 +22,7 @@ namespace Payroll{
 
         public double getTax()
         {
-            return GetEMI() / 0.05;
+            return GetEMI() * 0.1;
         }
     }
 

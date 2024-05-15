@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "dwrNTSetNIB4UunQEYYb1C5KMWduE0pc1nIApH9aWPs=",
+  "Source": "DemoApp",
+  "BasePath": "_content/DemoApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoApp/wwwroot",
+      "Source": "DemoApp",
+      "ContentRoot": "/home/cdac/juned/dotnet/AdoNetCoreMVCTest/DemoApp/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/cdac/juned/dotnet/AdoNetCoreMVCTest/DemoApp/wwwroot/welcome.html",
+      "SourceId": "DemoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/juned/dotnet/AdoNetCoreMVCTest/DemoApp/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "RelativePath": "welcome.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/welcome.html"
+    }
+  ]
+}

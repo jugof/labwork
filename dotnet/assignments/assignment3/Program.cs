@@ -20,14 +20,12 @@ class Program
             {
                 Console.WriteLine($"Calculated EMI for the Personal Loan : {emi:0.00}, and Tax is: {tax.getTax():0.00}");
             }
-
             if(loan is Discountable discount)
             {
                 Console.WriteLine($"Calculated EMI for the Home Loan : {emi:0.00}, and Discount is: {discount.getDiscount():0.00}");
             }
-
         }
-
+        
     }
 
 }
