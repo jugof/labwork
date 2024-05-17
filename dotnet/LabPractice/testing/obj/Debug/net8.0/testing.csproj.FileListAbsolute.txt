@@ -1,0 +1,15 @@
+/home/cdac/juned/dotnet/LabPractice/testing/bin/Debug/net8.0/testing
+/home/cdac/juned/dotnet/LabPractice/testing/bin/Debug/net8.0/testing.deps.json
+/home/cdac/juned/dotnet/LabPractice/testing/bin/Debug/net8.0/testing.runtimeconfig.json
+/home/cdac/juned/dotnet/LabPractice/testing/bin/Debug/net8.0/testing.dll
+/home/cdac/juned/dotnet/LabPractice/testing/bin/Debug/net8.0/testing.pdb
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.AssemblyInfoInputs.cache
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.AssemblyInfo.cs
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.csproj.CoreCompileInputs.cache
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.sourcelink.json
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.dll
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/refint/testing.dll
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.pdb
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/testing.genruntimeconfig.cache
+/home/cdac/juned/dotnet/LabPractice/testing/obj/Debug/net8.0/ref/testing.dll

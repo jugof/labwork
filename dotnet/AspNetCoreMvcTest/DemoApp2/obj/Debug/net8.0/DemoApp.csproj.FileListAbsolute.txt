@@ -1,0 +1,9 @@
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.AssemblyInfo.cs
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.MvcApplicationPartsAssemblyInfo.cache
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.RazorAssemblyInfo.cache
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.RazorAssemblyInfo.cs
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.sourcelink.json
+/home/cdac/juned/dotnet/AspNetCoreMvcTest/DemoApp2/obj/Debug/net8.0/DemoApp.csproj.AssemblyReference.cache

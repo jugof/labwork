@@ -1,0 +1,22 @@
+@page "/Jackpot/{size:int=1} {zz:int=1}"
+@addTagHelper *, DemoApp
+@{
+    int n = Convert.ToInt32(RouteData.Values["size"]); 
+    int z = Convert.ToInt32(RouteData.Values["zz"]); 
+}
+<html>
+    <head>
+        <title>No Demo</title>
+    </head>
+    <body>
+        <h1>Welcome Idiot Bhaguuuuu</h1>
+        <b>WINNER:</b>
+        <p>The total values N + Z is: @(n+z)</p>
+        <lotto digit-count="@n"></lotto>
+        <jun not-ok="@z">
+            <button>@z</button>
+        </jun>
+        
+        
+    </body>
+</html>
