@@ -1,0 +1,13 @@
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/bin/Debug/net8.0/ContractLib.deps.json
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/bin/Debug/net8.0/ContractLib.dll
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/bin/Debug/net8.0/ContractLib.pdb
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.csproj.AssemblyReference.cache
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.AssemblyInfoInputs.cache
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.AssemblyInfo.cs
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.csproj.CoreCompileInputs.cache
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.sourcelink.json
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.dll
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/refint/ContractLib.dll
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ContractLib.pdb
+/home/cdac/juned/dotnet/GrpcServiceTest/ContractLib/obj/Debug/net8.0/ref/ContractLib.dll
