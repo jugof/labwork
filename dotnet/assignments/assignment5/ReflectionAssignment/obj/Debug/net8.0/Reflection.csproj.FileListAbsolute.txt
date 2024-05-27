@@ -1,0 +1,15 @@
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.AssemblyInfoInputs.cache
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.AssemblyInfo.cs
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.csproj.CoreCompileInputs.cache
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.sourcelink.json
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/bin/Debug/net8.0/Reflection
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/bin/Debug/net8.0/Reflection.deps.json
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/bin/Debug/net8.0/Reflection.runtimeconfig.json
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/bin/Debug/net8.0/Reflection.dll
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/bin/Debug/net8.0/Reflection.pdb
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.dll
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/refint/Reflection.dll
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.pdb
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/Reflection.genruntimeconfig.cache
+/home/cdac/juned/dotnet/assignments/assignment5/ReflectionAssignment/obj/Debug/net8.0/ref/Reflection.dll
