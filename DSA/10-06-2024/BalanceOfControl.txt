@@ -1,0 +1,73 @@
+package stack;
+
+public class CharStack {
+    int tos;
+    int maxsize;
+    char stack[];
+
+    public CharStack() {}
+
+    public CharStack(int size){
+        maxsize = size;
+        tos = -1;
+        stack = new char[maxsize];
+    }
+
+    public void push(char ch) {
+        stack[++tos] = ch;
+    }
+
+    public char pop(){
+        return stack[tos--];
+    }
+
+    public char top(){
+        return stack[tos];
+    }
+
+    public boolean is_empty(){
+        return tos == -1;
+    }  
+}
+
+
+=======================================================================================================================
+
+import java.util.Scanner;
+
+import stack.CharStack;
+
+public class BalanceOfControl {
+
+    public static boolean checkBalanceOfControl(String s){
+        CharStack st = new CharStack(s.length());
+
+        for(int i=0; i<s.length(); ++i) {
+            char ch = s.charAt(i);
+            if(st.is_empty()){
+                st.push(ch);
+            }
+            else{
+                char top = st.top();
+                if(top == '{' && ch == '}')
+                    st.pop();
+                else
+                    st.push(ch);
+            }
+        }
+        return st.is_empty();
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a Parenthesis consisting of {} characters:");
+        String parenthesis = in.nextLine();
+
+        boolean ansCheck = checkBalanceOfControl(parenthesis);
+        if(ansCheck)
+            System.out.println("Balanced");
+        else
+            System.out.println("Error:unexpected");
+        
+    }
+}

@@ -1,0 +1,71 @@
+package stack;
+
+public class CharStack {
+    int tos;
+    int maxsize;
+    char stack[];
+
+    public CharStack() {}
+
+    public CharStack(int size){
+        maxsize = size;
+        tos = -1;
+        stack = new char[maxsize];
+    }
+
+    public void push(char ch) {
+        stack[++tos] = ch;
+    }
+
+    public char pop(){
+        return stack[tos--];
+    }
+
+    public boolean is_empty(){
+        return tos == -1;
+    }
+    
+}
+
+
+====================================================================================================================
+
+import java.util.Scanner;
+import java.util.Stack;
+
+import stack.CharStack;
+
+public class reverseWord {
+
+    public static String reverse(String str) {
+        Stack<Character> st = new Stack<Character>();
+        for(int i=0;i<str.length(); ++i){
+            st.push(str.charAt(i));
+        }
+        String ansString = "";
+        while(!st.isEmpty()){
+            ansString += st.pop();
+        }
+        return ansString;
+    }
+
+    public static String reverse2(String str) {
+        CharStack st = new CharStack(str.length());
+        for(int i=0;i<str.length(); ++i){
+            st.push(str.charAt(i));
+        }
+        String ansString = "";
+        while(!st.is_empty()){
+            ansString += st.pop();
+        }
+        return ansString;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a string to reverse: ");
+        String str = in.nextLine();
+        String ans = reverse2(str);
+        System.out.println("Reversed string: " + ans);
+    }
+}
