@@ -1,0 +1,53 @@
+package GraphHW.graph;
+
+public class CelebrityProblem {
+
+    public static int findCelebrity(int matrix[][], int visited[], int n, int index) {
+        if(index >= n){
+            return -1;
+        }
+        
+        // marking the current person as visited
+        visited[index] = 1;
+        
+        for(int i = 0; i < n; i++){
+            if(matrix[index][i] == 1 && visited[i] != 1){
+                // If index knows i, then check if i is a celebrity
+                int celebrity = findCelebrity(matrix, visited, n, i);
+                if (celebrity != -1) {
+                    // If celebrity is found, return it
+                    return celebrity;
+                }
+            }
+        }
+        
+        // After visiting all, check if the current index is a celebrity
+        for(int i = 0; i < n; i++) {
+            if(i != index && (matrix[index][i] == 1 || matrix[i][index] == 0)) {
+                return -1; // it is not celebrity if it knows someone or someone doesn't know them
+            }
+        }
+        
+        return index;
+    }
+
+    public static void main(String[] args) {
+        int matrix[][] = {
+            {0, 1, 0, 1},
+            {0, 0, 0, 0},
+            {1, 1, 0, 1},
+            {0, 1, 0, 0}
+        };
+
+        int n = matrix.length;
+        int visited[] = new int[n];
+        int index = 0;
+        int celebrity = findCelebrity(matrix, visited, n, index);
+        if(celebrity != -1){
+            System.out.println("Celebrity is " + celebrity);
+        } 
+        else {
+            System.out.println("No celebrity found");
+        }
+    }
+}
