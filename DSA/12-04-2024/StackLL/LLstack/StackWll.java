@@ -5,7 +5,7 @@ package LLstack;
  */
 public class StackWll {
 
-    Node tos;
+    public Node tos;
 
     public void push(int element) {
         Node newNode = new Node(element);
@@ -42,5 +42,9 @@ public class StackWll {
             return -1;
         }
         return tos.data; 
+    }
+
+    public boolean empty(){
+        return tos == null; 
     }
 }
